@@ -539,6 +539,8 @@ body{
     max-width:520px;
     align-self:center;
     padding-bottom:clamp(42px,8vh,90px);
+    position:relative;
+    z-index:5;
 
 }
 
