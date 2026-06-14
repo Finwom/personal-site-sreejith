@@ -645,12 +645,7 @@
 		background:#ffffff;
 	}
 
-	#author .section-overline,
-	#author .section-title,
-	#author .section-intro,
-	#author .section-grid{
-		display:none;
-	}
+
 
 	.author-mobile-card{
 		display:grid;
