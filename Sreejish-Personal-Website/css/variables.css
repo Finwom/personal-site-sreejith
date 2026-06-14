@@ -1,0 +1,26 @@
+
+:root {
+
+    /* COLORS */
+    --primary-color: #c89b3c;
+    --secondary-color: #111111;
+    --background-color: #f6f2ea;
+    --white-color: #ffffff;
+    --text-color: #3a3a3a;
+    --card-color: rgba(255, 255, 255, 0.92);
+
+    /* FONTS */
+    --heading-font: 'Playfair Display', serif;
+    --body-font: 'Inter', sans-serif;
+
+    /* SPACING */
+    --section-padding: clamp(84px, 9vw, 132px) 10%;
+
+    /* BORDER */
+    --border-radius: 28px;
+
+    /* TRANSITION */
+    --transition: 0.35s ease;
+
+}
+
