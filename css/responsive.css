@@ -1679,7 +1679,8 @@
 
 @media (max-width: 700px){
     .photo-gallery-section{
-        padding:0 5% 60px;
+        padding:30px 5% 30px;
+
     }
 
     .photo-gallery{
