@@ -1701,3 +1701,14 @@
         border-radius:19px;
     }
 }
+
+@media (max-width: 600px) {
+    .article-img {
+        height: 200px;
+        margin-right: 20px;
+    }
+
+    .media-coverages-grid {
+        grid-template-columns: 1fr;
+    }
+}

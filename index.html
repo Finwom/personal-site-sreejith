@@ -415,14 +415,14 @@
         <div class="section-shell reveal">
             <p class="section-overline" style="text-align: center; margin-bottom: 30px;">Featured Articles & Coverage</p>
         </div>
-        <div style="width: 100%; white-space: nowrap; overflow: hidden;">
-            <marquee behavior="scroll" direction="left" scrollamount="12" style="display: flex; align-items: center; padding: 10px 0;">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM%20(1).jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM%20(2).jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM.jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM%20(1).jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM%20(2).jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
-                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM.jpeg" alt="Article" style="height: 280px; margin-right: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); object-fit: cover; display: inline-block; vertical-align: middle; border: 1px solid rgba(255,255,255,0.1);">
+        <div class="marquee-container" style="width: 100%; white-space: nowrap; overflow: hidden;">
+            <marquee class="article-marquee" behavior="scroll" direction="left" scrollamount="12" style="display: flex; align-items: center; padding: 10px 0;">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM%20(1).jpeg" alt="Article" class="article-img">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM%20(2).jpeg" alt="Article" class="article-img">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.26%20PM.jpeg" alt="Article" class="article-img">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM%20(1).jpeg" alt="Article" class="article-img">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM%20(2).jpeg" alt="Article" class="article-img">
+                <img src="assets/images/Articles/WhatsApp%20Image%202026-06-24%20at%204.16.27%20PM.jpeg" alt="Article" class="article-img">
             </marquee>
         </div>
     </section>
@@ -1144,7 +1144,7 @@
                 </p>
             </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; max-width: 1000px; margin: 0 auto;">
+            <div class="media-coverages-grid">
                 
                 <!-- Card 1 -->
                 <a href="https://www.facebook.com/share/v/1B3C6ke1ph/?mibextid=wwXIfr" target="_blank" class="contact-info-card" style="flex-direction: row; align-items: center; justify-content: flex-start; text-align: left; padding: 24px;">
